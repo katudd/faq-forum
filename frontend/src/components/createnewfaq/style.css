@@ -1,0 +1,75 @@
+.newfaqbox {
+  padding: 20px 30px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 0;
+}
+
+/*.outerfaq {
+  width: 30%;
+}*/
+
+#inputcreate {
+  width: 95%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+select {
+  width: 110%;
+  height: 30px;
+  margin: 10px;
+  /*margin-bottom: 40px;*/
+  border-radius: 10px;
+  background: black;
+  color: white;
+}
+
+#buttocreatenew {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  border: 1px solid white;
+}
+
+#usertextarea {
+  padding: 20px;
+  margin: 10px;
+  resize: none;
+  width: 95%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#colorwhite {
+  color: white;
+}
+
+#message {
+  font-size: 25px;
+  color: white;
+}
+
+.message {
+  text-align: center;
+  width: 100%;
+}
+
+@media (max-width: 500px){
+}
+
+@media (min-width:501px) and (max-width:800px){
+
+
+}
+
+@media (min-width: 801px){
+}

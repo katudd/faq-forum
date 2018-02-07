@@ -1,0 +1,167 @@
+.ask {
+  width: 50%;
+  padding: 4%;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  background: black;
+}
+
+#buttonuser {
+  font-family: Univers Next Pro;
+  font-weight: light;
+  font-size: 1em;
+  width: 30%;
+  text-align: center;
+  padding: 20px 0;
+  border-radius: 20px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  margin-top: 20px;
+}
+
+#usertextarea {
+  padding: 20px;
+  margin: 10px;
+  resize: none;
+  width: 95%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#usertextareaquestion {
+  padding: 20px;
+  /*margin: 10px;*/
+  resize: none;
+  width: 100%;
+  height: 100px;
+  border-radius: 10px;
+}
+
+#colorwhite {
+  color: white;
+}
+
+#message {
+  font-size: 25px;
+  color: white;
+}
+
+.message {
+  text-align: center;
+  width: 100%;
+}
+
+.buttoncat {
+  margin: 20px;
+  padding: 5px 20px;
+}
+
+.buttoncategorys {
+  margin: auto;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.questionbutton {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.headertext {
+  text-align: center;
+}
+
+.statussent {
+  text-align: center;
+}
+
+#green {
+  color: #00cc66;
+}
+
+img
+ {
+   min-width: 200px;
+ }
+#nomargin {
+  margin: 0;
+}
+
+#notopmargin {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.accordion-container {
+  height: auto;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion-question{
+  width: 100%;
+  padding: 2px 10% 1px 10%;
+  background-color: lightgrey;
+  border-bottom: 1px solid #656464;
+}
+
+.accordion-answer{
+  width: 100%;
+  padding: 0 10%;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.Faq-list{
+  margin-bottom: 50px;
+}
+
+@media (max-width: 500px){
+  .ask {
+    width: 80%;
+  }
+
+  img
+   {
+     margin-top: 10px;
+   }
+
+  .headertext {
+    font-size: 1em;
+  }
+
+
+  #nomargin {
+    margin: 5px 0;
+  }
+
+  .buttoncat {
+    margin: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width:01px) and (max-width:800px){
+  .ask {
+    width: 70%;
+  }
+
+}
+
+@media (min-width: 801px){
+}

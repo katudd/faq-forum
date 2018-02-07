@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Univers Next Pro;
+  font-style: normal;
+  font-weight: light;
+  src:
+    local(UniversNextPro),
+    local(UniversNextPro-Thin),
+    url(/fonts/UniversNextPro-Thin.otf) format('opentype');
+}
+
+html {
+  font-family: Univers Next Pro;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+input, textarea, select {
+  font-family: Univers Next Pro;
+  font-size: 0.9em;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+select {
+  /* margin: 10px 0; */
+  border-radius: 20px;
+  background: white;
+  color: black;
+}
+
+.adminbutton {
+  border-radius: 10px;
+  background: white;
+  color: black;
+  margin: 20px;
+  margin-bottom: 0;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.exitbutton {
+  border-radius: 10px;
+  background: black;
+  color: white;
+  margin: 20px;
+  margin-bottom: 0;
+  padding: 20px;
+  border: 1px solid white;
+}
+
+.logoclass {
+  margin-top: 10px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+button {
+  font-family: Univers Next Pro;
+  font-weight: light;
+  border-radius: 10px;
+  background: white;
+  border: 2px solid black;
+  color: black;
+  margin: 10px;
+  padding: 3px 20px 0 20px;
+  font-size: 1em;
+}
+
+.button-black {
+  background: black;
+  border: 2px solid white;
+  color: white;
+}
+
+@media (max-width: 00px){
+  button {
+    margin: 10px;
+    padding: 3px 20px 0 20px;
+    font-size: 0.7em;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+
+}
+
+@media (min-width:501px) and (max-width:800px){
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2{
+    font-size: 1.5em;
+  }
+
+}
+
+@media (min-width: 801px){
+}
