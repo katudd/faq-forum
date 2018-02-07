@@ -53,4 +53,3 @@ Done with the main task? Try to come up with some fun stretch goals within your 
 
 1. Add login functionality so that the support staff need to identify to be able to answer questions.
 1. Add an upvoting function on questions so that users can upvote the more relevant questions and these get showed on top.
-# faq-forum
